@@ -1,0 +1,33 @@
+*{
+	padding: auto;
+	margin:auto;
+	background url:('tp_images_fonts/images/yellow_background.png');
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Poppins', sans-serif;
+	width: auto;
+	height: 80px;
+}
+#logo h1{
+	color: blue;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin:10px 2px;
+
+}
+nav ul li{
+	display: inline-block;
+	padding: 5px;
+	margin:5px;
+	list-style-type: none;
+	float: right;
+
+}
+nav a{
+	color: white;
+	display: block;
+	text-decoration: none;
+	cursor: pointer;
+}

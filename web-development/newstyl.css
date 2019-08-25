@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+html,body{
+    margin:0px;
+    padding:0px,
+}
+header{
+    background-color: rgba(255, 255, 255, 3);
+    background-image: url('images/sanfrancisco.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.nav ul{
+    margin:0px;
+    list-style: none;
+}
+.nav li{
+    display:inline
+    
+}.nav a{
+
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    padding: .5em;
+    size: 30px;
+    text-transform: capitalize;
+}
+.main-nav{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    border-bottom: 1px solid gray;
+    
+
+
+}
+.main-nav li{
+    padding:10px;
+
+}
+.nav a:hover{
+    background:blue;
+    cursor:pointer;
+    animation: alternate;
+}
+.main{
+    text-align:center;
+    margin:0;
+    color:white;
+    font-family:'Cedarville Cursive', cursive;
+    font-size:5em;
+
+}

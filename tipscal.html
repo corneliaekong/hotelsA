@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tip calculator</title>
+	<link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+	<div class="main">
+		<div class="container">
+			<div class="tip_cal">
+				<header>Tip Calculator</header>
+				<form>
+					<h2>how much was your bill?</h2>
+					<label>$</label>
+					<input type="text"id="inputgroup" name="amount" value="Bill Amount">
+					<p>How was your service?</p>
+					<select>
+						<option>--Choose an Option--</option>
+						<option>good</option>
+						<option>poor</option>
+						<option>excellent</option>
+					</select>
+					<p>how many people are sharing the bill?</p>
+					<input type="tex" name="people" id="inputgroup" value="Number of people"/>&nbsp;people
+					<button class="button">CALCULATE</button>
+					<button class="cancel">CANCEL</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="validate">
+		<label>enter a number to validate </label>
+		<input type="text" id="numb">
+		<button type="submit" onclick="validate()">submit</button>
+
+		<p id ="demo"></p>
+	</div>
+
+	<script type="text/javascript">
+		function validate(){
+		var x, text;
+		//get thevalue of the input field with id numb//
+		x=document.getElementById("numb").value;
+		// if x is not a number or less than one or greater than 10//
+
+		if(isNaN(x)||x<1 || x>10){
+			text ="invalid input";
+		}
+		else{
+			text="input ok";
+
+
+		}
+		document.getElementById("demo").innerHTML=text;
+	}
+
+	</script>
+
+</body>
+</html>

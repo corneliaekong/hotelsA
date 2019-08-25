@@ -1,0 +1,39 @@
+/*BLACK*/
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	
+}
+
+nav ul{
+	list-style: none;
+	border-top: 5px solid yellow;
+	background: grey;
+}
+nav ul li a{
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	padding: 15px 25px;
+	text-align: center;
+}
+nav ul li a:hover{
+	color: red;
+
+}
+
+.logo{
+	display: flex;
+	justify-content: space-between;
+	font-size: 40px
+	color: white;
+	background-color: black;
+
+}
+.logo:hover{
+	color: white;
+
+
+}
+font-family: 'Roboto', sans-serif;

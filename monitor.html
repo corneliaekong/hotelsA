@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>monitor campaign</title>
+	<meta charset="utf-8">
+	<meta lang="en">
+	<link rel="stylesheet" type="text/css" href="monitorstyle.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet"href="mystyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<script type="text/javascript">
+		var A=3;
+		var B=5;
+		var sum;
+		function myFunction(argument) {
+			// body...
+
+			document.getElementById('del').innerHTML ="welcome to monitor campaign"
+		}
+		document.write('Thank you for yourPatronage')
+
+		function addition(){
+			sum = A+B;
+			document.getElementById('ele').innerHTML=sum
+		}
+
+		function insert(num){
+			document.form.textview.value = document.form.textview.value+num
+		}
+	</script>
+	<style type="text/css">
+		.button{
+			width: 50px;
+			height: 50px;
+			padding: 10px
+			margin:10px;
+			font-size: 25px;
+
+		}
+		.textview{
+			width: 217px;
+			margin:5px;
+			padding: 5px;
+			cursor: pointer;
+		}
+		table{
+			width: 217px;
+			margin: 5px;
+			padding: 5px;
+		}
+
+	</style>
+</head>
+
+
+<body>
+	<nav>
+		<div id ="logo"><h1>MonitorCampaign<h1></div>
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	<div id="welcome">
+		<h1 align="center">Welcome to Monitor Campaign</h1>
+		<div class="about">
+			<h2>A Team Of Backlink Experts</h2>
+			<p>Monitor campaign is a group of backlink experts who specialises in monitoring links to ensure you don<br>you do not acquire any toxic or spam links to your site.
+			Our mission is to help website oweners achieve their <em>SEO</em> goals 
+		</div>
+		</div>
+	</div>
+	<section>
+		<div id="ja">
+			<p id="del">BACKLINK EXPERTS</p>
+			<button type ="button" onclick="myFunction()">TRY MONITOR CAMPAIGN</button>
+
+		</div>
+		<p id="ele">sum</p>
+		<button onclick="addition()">ADD</button>
+	</section>
+
+	<section>
+		<div id="calculator">
+			<form>
+				<input class="textview" name="textview"></form>
+				<table>
+					<tr>
+						<td><input class ="button" type="button" value="C"></td>
+						<td><input class="button" type="button" value="<"></td>
+						<td><input class="button" type="button" value="/"></td>
+						<td><input class="button" type="button" value="*"></td>
+					</tr>
+
+					<tr>
+						<td><input class ="button" type="button" value="7"></td>
+						<td><input class="button" type="button" value="8"></td>
+						<td><input class="button" type="button" value="9"></td>
+						<td><input class="button" type="button" value="-"></td>
+					</tr>
+
+					<tr>
+						<td><input class ="button" type="button" value="4"></td>
+						<td><input class="button" type="button" value="5"></td>
+						<td><input class="button" type="button" value="6"></td>
+						<td><input class="button" type="button" value="+"></td>
+					</tr>
+
+					<tr>
+						<td><input class ="button" type="button" value="1" onclick="insert(num)=1"></td>
+						<td><input class="button" type="button" value="2" onclick="insert(2)"></td>
+						<td><input class="button" type="button" value="3"></td>
+						<td><input class="button" type="button" value="="></td>
+					</tr>
+
+
+				</table>
+			
+		</div>
+	</section>
+</body>
+
+			
+</html>

@@ -1,0 +1,12 @@
+*{
+	margin:0;
+	font-family:arial, verdana;
+	background-color:rgb(220 220 220);
+}
+
+nav{
+	width: 200px;
+	height: 40px;
+	border:2px solid blue;
+
+}
